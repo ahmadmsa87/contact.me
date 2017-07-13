@@ -1,0 +1,43 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 29, 2017, 8:59:59 PM
+    Author     : AHMAD
+*/
+html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
+.footer_last{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding-top: 1%;
+}
+.hover-black:hover{
+    color:black;
+}
+.w3-darkblue, .w3-hover-darkblue:hover {
+    color: #fff!important;
+    background-color: #4d7496!important;
+}
+body{
+    height: initial;
+}
+::-webkit-scrollbar {
+    width: 8px;
+    -webkit-appearance:none;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(50, 50, 50,0.1);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 40px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #666;
+}
