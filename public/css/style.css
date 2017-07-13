@@ -4,7 +4,7 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
-    Created on : Mar 29, 2017, 8:59:59 PM
+    Created on : JUL 13, 2017, 4:59:59 PM
     Author     : AHMAD
 */
 html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
@@ -24,6 +24,9 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
 body{
     height: initial;
 }
+.no-decoration{
+    text-decoration:none!important;
+}
 ::-webkit-scrollbar {
     width: 8px;
     -webkit-appearance:none;
@@ -41,3 +44,4 @@ body{
 ::-webkit-scrollbar-thumb:hover {
     background-color: #666;
 }
+
