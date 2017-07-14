@@ -9,7 +9,7 @@ and open the template in the editor.
 */
 html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
 .footer_last{
-    position: absolute;
+    position: fixed;
     bottom: 0px;
     width: 100%;
     padding-top: 1%;
@@ -27,6 +27,13 @@ body{
 .no-decoration{
     text-decoration:none!important;
 }
+.form-control {
+    background-color: #fff;
+    border: 1px solid #c2c2c2;
+    border-radius: 20px!important;
+}
+
+
 ::-webkit-scrollbar {
     width: 8px;
     -webkit-appearance:none;
