@@ -14,6 +14,11 @@ return [
     */
     'home' => 'Home Page',
     'contact_us' => 'Contact us',
+    'your_name' => 'YOUR NAME',
+    'email_label' => 'YOUR EMAIL',
+    'subject_label' => 'SUBJECT',
+    'msg_label' => 'MESSAGE',
+    'send_msg_label' => 'SEND MESSAGE',
     'create_book' =>'CREATE BOOK »',
     'contact_message' => 'If you have any question, please do not hesitate to contact us immediately.',
     'footer' => 'PastBook© by Ahmad Saleh',
