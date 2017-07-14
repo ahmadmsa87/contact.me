@@ -32,6 +32,12 @@ body{
     border: 1px solid #c2c2c2;
     border-radius: 20px!important;
 }
+.green-shadow{
+    text-shadow: -0.5px 0 green, 0 0.5px green, 0.5px 0 green, 0 -0.5px green!important;
+}
+.gray-shadow{
+    text-shadow: -0.5px 0 gray, 0 0.5px gray, 0.5px 0 gray, 0 -0.5px gray!important;
+}
 
 
 ::-webkit-scrollbar {
