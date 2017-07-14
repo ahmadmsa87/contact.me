@@ -12,18 +12,40 @@
             <!-- The Grid -->
             <div class="w3-row">
 
+                @if ($errors->any())
+                <div class='col-md-8 col-md-offset-2'>
+                    <!-- Alert Box -->
+                    <div  class="w3-container w3-display-container w3-round w3-border w3-theme-border w3-margin-bottom  w3-red">
+                        <span onclick="this.parentElement.style.display = 'none'" class="w3-button  w3-display-topright">
+                            <i class="fa fa-remove"></i>
+                        </span>
+                        <br>
+                        <p><strong>Error !</strong></p>
+                        <ul>
+                            @foreach ($errors->all() as $error)
+                            <li>{{ $error }}</li>
+                            @endforeach
+                        </ul>
+                    </div>
+                </div>
+                @endif
                 @if(Session::has('message'))
-                <!-- Alert Box -->
-                <div  class="w3-container w3-display-container w3-round w3-theme-l4 w3-border w3-theme-border w3-margin-bottom w3-hide-small">
-                    <span onclick="this.parentElement.style.display = 'none'" class="w3-button w3-theme-l3 w3-display-topright">
-                        <i class="fa fa-remove"></i>
-                    </span>
-                    <br>
-                    <p><strong>Message !</strong></p>
-                    <p> {{ Session::get('message') }} </p>
+
+                <div class='col-md-8 col-md-offset-2'>
+                    <!-- Alert Box -->
+                    <div  class="w3-container w3-display-container w3-round  w3-border w3-theme-border w3-margin-bottom  w3-green">
+                        <span onclick="this.parentElement.style.display = 'none'" class="w3-button w3-display-topright">
+                            <i class="fa fa-remove"></i>
+                        </span>
+                        <br>
+                        <p><strong>Message !</strong></p>
+                        <p> {{ Session::get('message') }} </p>
+                    </div>
                 </div>
                 @endif
                 <?php Session::forget('message'); ?>
+            </div>
+            <div class="w3-row">
                 <!-- Main Column -->
                 <div class="w3-col m3">
                     <!-- Profile -->
