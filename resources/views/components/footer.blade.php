@@ -5,7 +5,7 @@
  * and open the template in the editor.
  */
 ?>
-<footer class="w3-container w3-white w3-center footer_last ">
+<footer class="w3-container w3-white w3-bottom w3-center footer_last ">
     <p> @lang('contact.footer')</p>
 </footer>
 
