@@ -6,7 +6,10 @@
     "type": "project",
     "require": {
         "php": ">=5.5.9",
-        "laravel/framework": "5.2.*"
+        "laravel/framework": "5.2.*",
+        "greggilbert/recaptcha": "dev-master",
+        "laravelcollective/html": "^5.2.0",
+        "anhskohbo/no-captcha": "^2.3"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
