@@ -3,15 +3,14 @@
     <head>
         @include('components.head')
     </head>
-    <body class="w3-theme-l5" style="background-image: url(/image/book-lights-color.jpg)">
+    <body class="w3-theme-l5" style="background-image: url(/image/book-lights-color.jpg);">
 
-       @include('components.header')
-      
+        @include('components.header')
+
         <!-- Page Container -->
         <div class="w3-container w3-content" style="max-width:1400px;margin-top:80px">    
             <!-- The Grid -->
             <div class="w3-row">
-
 
                 @if(Session::has('message'))
                 <!-- Alert Box -->
@@ -29,27 +28,26 @@
                 <div class="w3-col m3">
                     <!-- Profile -->
                     <div class="w3-card-2 w3-round w3-text-white">
-                        
 
-                            @yield('content')
-                        
+                        @yield('content')
+
                     </div>
                     <br>
                     <br>
 
-                    <!-- End main Column -->
                 </div>
+                <!-- End main Column -->
 
-                <!-- End Grid -->
             </div>
+            <!-- End Grid -->
 
-            <!-- End Page Container -->
         </div>
+        <!-- End Page Container -->
         <br>
 
         <!-- Footer -->
         @include('components.footer')
-       
+        <!-- End Footer -->
 
     </body>
 </html> 
