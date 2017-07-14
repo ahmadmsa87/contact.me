@@ -19,4 +19,13 @@
             x.className = x.className.replace(" w3-show", "");
         }
     }
+    // Set Recaptcha as required field
+    function validateRecaptchaForm() {
+        var recaptcha = document.forms["contactForm"]["g-recaptcha-response"].value;
+       
+        if (recaptcha == "") {
+            alert("Please fill reCAPTCHA");
+            return false;
+        }
+    }
 </script>
